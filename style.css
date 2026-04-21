@@ -156,16 +156,29 @@ body {
     transform: scale(1.05);
 }
 
-/* Features Section */
+/* How to Order & Features Sections */
+.how-to-order {
+    padding: 60px 0;
+    background-color: var(--secondary-color);
+}
+
+.how-to-order .section-title {
+    color: var(--text-dark);
+}
+
 .features {
     padding: 60px 0;
     background-color: #fff;
 }
 
-.features .menu-item {
+.features .menu-item, .how-to-order .menu-item {
     justify-content: center;
     font-weight: 600;
     cursor: default;
+}
+
+.how-to-order .menu-item {
+    color: var(--text-dark);
 }
 
 /* About Section */
