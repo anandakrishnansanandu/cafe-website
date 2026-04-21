@@ -243,13 +243,13 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
 
 .gallery-grid img {
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.4s ease;
@@ -410,7 +410,7 @@ footer {
         font-size: 3rem;
     }
 
-    .about-grid, .contact-grid {
+    .about-grid, .contact-grid, .gallery-grid {
         grid-template-columns: 1fr;
     }
 }
